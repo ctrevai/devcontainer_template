@@ -13,3 +13,6 @@ Dockerfile
 Requirements.txt
 
 mount local volumn for zsh
+
+delete ._\* file
+find . -type f -name '._\*' -delete
