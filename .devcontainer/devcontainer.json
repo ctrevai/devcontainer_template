@@ -26,16 +26,13 @@
         "ms-toolsai.jupyter",
         "donjayamanne.python-extension-pack",
         "redhat.vscode-yaml",
-        "mark-tucker.aws-cli-configure"
+        "mark-tucker.aws-cli-configure",
+        "amazonwebservices.amazon-q-vscode"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "zsh",
         "terminal.integrated.profiles.linux": { "zsh": { "path": "/bin/zsh" } }
       }
     }
-  },
-  "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.aws,target=/home/vscode/.aws,type=bind,consistency=cached",
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.zshrc,target=/home/vscode/.zshrc,type=bind,consistency=cached"
-  ]
+  }
 }
