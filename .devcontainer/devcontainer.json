@@ -26,7 +26,8 @@
         "donjayamanne.python-extension-pack",
         "redhat.vscode-yaml",
         "mark-tucker.aws-cli-configure",
-        "amazonwebservices.amazon-q-vscode"
+        "amazonwebservices.amazon-q-vscode",
+        "ms-python.python"
       ],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "zsh",
